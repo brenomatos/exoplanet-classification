@@ -22,7 +22,7 @@ We'll compare the following machine learning algorithms:
 # Graphs
 In this repository, we create multiple graphs. Here are some examples of those graphs:
 
-For each model, we create a line graph to represent the variation of the accuracy score while we variate the algorithms parameters:
+For each model, we create a line graph to represent the variation of theaccuracy score while we variate the algorithms parameters:
 ![Line Graph](/graphs/linegraph.png "Line Graph")
 
 For the SVM algorithm, we vary the kernels, so we use a bar graph to represent this model's accuracy"
@@ -32,6 +32,9 @@ For the SVM algorithm, we vary the kernels, so we use a bar graph to represent t
 We also compare all models regarding recall, precision, train/test accuracy:
 ![Comparative Graph](/graphs/comparative.png "Comparative Graph")
 
+
+
+Also, for every model created, we plot a ROC curve
 ![ROC Graph](/graphs/linegraph.png "ROC Graph")
 
 
